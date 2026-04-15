@@ -116,6 +116,7 @@ export const AppContextProvider = (props)=> {
             }else{
                 toast.error(data.message)
             }
+            
         } catch (error) {
             toast.error(error.message)
         }
